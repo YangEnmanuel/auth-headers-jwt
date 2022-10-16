@@ -1,0 +1,9 @@
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "user": "admin"
+}
+###
+GET http://localhost:3000/shop
+# Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiYWRtaW4iLCJpYXQiOjE2NjM2ODEyMDJ9.FHAvuCXGqtZlTCEH6PMwX4Ct881YGLuy9lSwrYXk5yU
